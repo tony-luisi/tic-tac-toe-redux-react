@@ -8,7 +8,7 @@ export default React.createClass({
     return (
       <div>
         <h1>Things</h1>
-        <ThingList things={things}/>
+        <ThingList things={state.things}/>
       </div>
     )
   }
