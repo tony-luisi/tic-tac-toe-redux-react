@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-starter",
+  "name": "redux-starter",
   "version": "1.0.0",
-  "description": "A webpack React starter",
+  "description": "A starter React/React solution",
   "main": "server/server.js",
   "scripts": {
     "build": "webpack",
