@@ -7,8 +7,8 @@ This is a small sample project you can use to start a new React/Redux app. It co
 * a webpack setup with its dev server and hot module reloading.
   - To use it, `npm start` and take your browser to [http://localhost:8080](http://localhost:8080).
 * an Express server with API routes and a `/static` folder to hold the webpack assets.
-  - To use it, `npm run server` in a separate terminal if your frontend will be using it.
-  - The server can be found at [http://localhost:3000](http://localhost:3000) and includes the necessary CORS configuration to permit access from client assets served from the `webpack-dev-server`.
+  - To use it, `npm run server` in a separate terminal and take your browser to [http://localhost:3000](http://localhost:3000).
+  - The server includes the necessary CORS configuration to permit access from client assets served from the `webpack-dev-server`.
   - It includes `node-inspector` for server-side debugging. For the debugging interface, go to [http://localhost:8888/?debug=5858](http://localhost:8888/?debug=5858).
   - It uses `node-dev` so it will restart after detected changes.
 * a test setup for running tests with `ava` and `enzyme`.
