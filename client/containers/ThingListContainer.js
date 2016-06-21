@@ -20,9 +20,9 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-const ListOfAllThings = connect(
+const ThingListContainer = connect(
   mapStateToProps,
   mapDispatchToProps
 )(ThingList)
 
-export default ListOfAllThings
+export default ThingListContainer

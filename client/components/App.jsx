@@ -1,14 +1,14 @@
 import React from 'react'
 
-import ListOfAllThings from '../containers/ListOfAllThings'
-import VisibleThingDetail from '../containers/VisibleThingDetail'
+import ThingListContainer from '../containers/ThingListContainer'
+import ThingDetailContainer from '../containers/ThingDetailContainer'
 
 export default () => {
   return (
     <div>
       <h1>Things</h1>
-      <ListOfAllThings />
-      <VisibleThingDetail />
+      <ThingListContainer />
+      <ThingDetailContainer />
     </div>
   )
 }

@@ -23,9 +23,9 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-const VisibleThingDetail = connect(
+const ThingDetailContainer = connect(
   mapStateToProps,
   mapDispatchToProps
 )(ThingDetail)
 
-export default VisibleThingDetail
+export default ThingDetailContainer

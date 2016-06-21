@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default (props) => {
-  console.log('rendering')
   return (
     <div>
       <h2>List</h2>
