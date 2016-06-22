@@ -1,13 +1,13 @@
 import React from 'react'
 
 import Header from './Header'
-import BoardContainer from '../containers/BoardContainer'
-import Info from './Info'
+import Board from '../containers/BoardContainer'
+import Info from '../containers/InfoContainer'
 
 export default (props) => (
       <div className='app'>
         <Header />
-        <BoardContainer />
+        <Board />
         <Info />
       </div>
 )
