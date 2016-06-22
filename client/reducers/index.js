@@ -14,11 +14,10 @@ export default (state = INITIAL_STATE, action) => {
       var updatedBoard = [].concat(state.board)
       updatedBoard[action.text].content = state.playerOneTurn ? "X" : "O"
       updatedBoard[action.text].completed = true
-      var newState = Object.assign({}, {
+      return Object.assign({}, state, {
         board: updatedBoard,
         playerOneTurn: !state.playerOneTurn
       })
-      return newState
     default:
       return state
   }
