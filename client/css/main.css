@@ -1,0 +1,22 @@
+body {
+  background-color: tomato;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  height: 375px;
+}
+
+.cell {
+  border-style: solid;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
