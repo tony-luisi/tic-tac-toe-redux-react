@@ -7,10 +7,13 @@ import App from './components/App'
 import reducer from './reducers/'
 
 let store = createStore(reducer)
+console.log(store.getState())
 
 document.addEventListener('DOMContentLoaded', () => {
   render(
-    <App />,
+    <Provider store={store}>
+      <App />
+    </Provider>,
     document.getElementById('app')
   )
 })

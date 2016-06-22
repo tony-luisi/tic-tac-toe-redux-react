@@ -10,7 +10,7 @@ import Header from '../client/components/Header'
 test('<App />', t => {
   const expected = 'Tic Tac Toe'
   const wrapper = render(React.createElement(App))
-  t.is(wrapper.find('Header').text(), expected)
+  t.is(wrapper.find('h1').text(), expected)
 })
 
 test('<Header />', t => {
