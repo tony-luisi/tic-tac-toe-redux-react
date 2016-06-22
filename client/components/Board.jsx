@@ -1,5 +1,5 @@
 import React from 'react'
-import Cell from './Cell'
+import Cell from '../containers/CellContainer'
 
 export default (props) => (
   <div className='board'>

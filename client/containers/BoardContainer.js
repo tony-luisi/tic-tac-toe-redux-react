@@ -1,6 +1,4 @@
 import { connect } from 'react-redux'
-import { bindActionCreators } from 'redux'
-import { playerTurn } from '../actions'
 
 import Board from '../components/Board'
 
@@ -10,10 +8,4 @@ const mapStateToProps = (state) => {
   }
 }
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-    playerTurn: bindActionCreators(playerTurn, dispatch)
-  }
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Board)
+export default connect(mapStateToProps)(Board)
