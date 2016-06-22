@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# tic-tac-toe-redux-react
-=======
 # A React/Redux starter
 
 This is a small sample project you can use to start a new React/Redux app. It contains:
