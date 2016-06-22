@@ -1,7 +1,10 @@
 import React from 'react'
+import Cell from './Cell'
 
 export default (props) => (
   <div className='board'>
-    <h2>Board</h2>
+    {props.board.map((cell, i) => (
+      <Cell key={i} id={i} content={cell.content} turn={props.playerTurn} completed={cell.completed}/>
+    ))}
   </div>
 )

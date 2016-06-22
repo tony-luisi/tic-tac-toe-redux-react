@@ -6,7 +6,9 @@ import { Provider } from 'react-redux'
 import App from './components/App'
 import reducer from './reducers/'
 
-let store = createStore(reducer)
+let store = createStore(reducer,
+  window.devToolsExtension && window.devToolsExtension()
+)
 
 document.addEventListener('DOMContentLoaded', () => {
   render(
