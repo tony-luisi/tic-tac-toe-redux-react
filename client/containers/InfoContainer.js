@@ -6,7 +6,8 @@ const mapStateToProps = (state) => {
   return {
     playerOneTurn: state.playerOneTurn,
     playerOneScore: state.playerOneScore,
-    playerTwoScore: state.playerTwoScore
+    playerTwoScore: state.playerTwoScore,
+    winner: state.winner
   }
 }
 

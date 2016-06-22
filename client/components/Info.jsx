@@ -6,5 +6,6 @@ export default (props) => (
     <p>Player Turn: {props.playerOneTurn ? "Player One" : "Player Two"}</p>
     <p>Player One Score: {props.playerOneScore}</p>
     <p>Player Two Score: {props.playerTwoScore}</p>
+    <p>Winner: {props.winner}</p>
   </div>
 )
