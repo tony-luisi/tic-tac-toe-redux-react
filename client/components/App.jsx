@@ -1,11 +1,13 @@
 import React from 'react'
 
-export default React.createClass({
-  render () {
-    return (
-      <div>
-        <h1>Things</h1>
+import Header from './Header'
+import Board from './Board'
+import Info from './Info'
+
+export default (props) => (
+      <div className='app'>
+        <Header />
+        <Board />
+        <Info />
       </div>
-    )
-  }
-})
+)
